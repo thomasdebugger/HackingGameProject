@@ -15,7 +15,9 @@
 + Client
 	- [ ] Implement sockets communication with server
 	- [ ] Handle results from server reception
-	- [ ] etc, ...	
+	- [ ] Contextual Map
+	- [ ] Commands completion
+	- [ ] etc, ...
 &nbsp;
 
 + Server
