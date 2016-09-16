@@ -1,6 +1,6 @@
 # HackingGameProject
-<p style="text-align:center";>*Project title will be updated when project name will be determined. ;)*
-&copy; 2016 - Etanlink, Nopest, Tellen, **Thomas Bastos (à modifier)**, Jérémy (?)</p>
+*Project title will be updated when project name will be determined. ;)*
+&copy; 2016 - Etanlink, Nopest, Tellen, **Thomas Bastos (à modifier)**, Jérémy (?)
 
 ---------------
 
@@ -33,4 +33,4 @@
 &nbsp;
 
 ---------------
-<p style="text-align:center";>Made with :heart: with **Markdown** ! :D</p>
+Made with :heart: with **Markdown** ! :D
