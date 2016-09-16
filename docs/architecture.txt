@@ -1,0 +1,18 @@
+L'architecture s'agence comme suit :
+	
+	source
+		classes
+		|	joueur.py : login, motdepasse, pc, compte bancaire, état(actif ou non)
+		|	|
+		|	machine.py : nom, IP, type, des fichiers, un OS, un affichage, des ports réseaux, processeur, RAM, état(compromise, active, down, etc...)
+		|	|	pc.py
+		|	|	serveur.py
+		|	|	proxy.py
+		|	|
+		|	market.py : liste de processeurs et RAMs, quantité, prix
+		|	|
+		|	blackMarket.py : liste de services (Ddos attack, assassinat), prix
+		|	|
+		|	commandes.py : nom, paramètres, effet
+		|	|
+		|	etc, ...

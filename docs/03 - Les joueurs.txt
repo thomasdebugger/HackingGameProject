@@ -1,0 +1,44 @@
+Ce que peuvent faire les joueurs :
+
+	- scanner r�seau pour trouver de nouvelles machines � hack
+	- scanner port d'une machine et rep�rer port hackable
+	- hack machine cible avec ex�cutable requis. (Hack SSH port 22 avec sshCrack par exemple, puis portHack pour acc�der � la machine ensuite et enfin attaque sur mot de passe pour prendre les droits sur la machine)
+	- acc�der aux fichiers d'une machine hack�e
+	- compromettre un pc gr�ce � des outils trouv�s sur des serveurs de hackers (en d�posant executable au sein de la machine)
+	- scanner les machines vuln�rables
+
+	Un joueur a :
+		- un PC : processeur (temps d'ex�cution) + RAM (nombre d'ex�cutions)
+		- un compte bancaire : permet l'achat de diff�rents services
+		- des fichiers, des logs, des executables, etc...
+		- syst�me de news permettant d'�tre notif� lorsqu'un autre joueur r�alise une action importante.
+	
+	Chaque action demande du temps processeur et de la m�moire
+		- Possibilit� d'acheter du nouveau mat�riel :
+			- Processeur plus puissant pour aller plus vite
+			- Plus de RAM pour lancer plus de t�ches
+
+
+	Les outils de hack � trouver :
+		Pour hack :
+			- sshCrack 22: hack le port cible ssh
+			- sqlMemCorrupter 1433: hack le port sql
+			- ftpBounce 21: hack le port ftp
+			- smtpStackOverflow 25: hack le port smtp
+			- httpWorm 80 : hack le port web
+			- ircHack 6667 : hack le port irc
+
+		Pour se faire de l'argent :
+			- Ransomware
+			- Keylogger pour infos bancaires
+			- 
+
+		Pour se prot�ger : 
+			- snurf, d�tecte connexions entrantes
+			- dosAttackKiller : emp�che un utilisateur d'envoyer des requ�tes au del� d'un certain stade
+			- proxy [adresse-ip] : utiliser un proxy
+			- changeIp : change adresse IP de l'h�te (envoie de requ�te de changement au routeur, demande donc un peu de temps - 30sec)
+
+		Pour attaquer :
+			- dosAttack (avec ou sans bots) : envoie des requ�tes 
+			- forkBomb (sur lui-m�me ou non) : remplit la m�moire jusqu'au crash de la machine
