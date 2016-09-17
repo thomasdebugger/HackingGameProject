@@ -2,14 +2,14 @@ Ce que doit faire le serveur :
 
 	Pour une partie :
 		- Attendre qu'au moins un joueur se connecte (jouer contre joueur ou contre l'IA (?))
-		- G�n�rer la map r�seau : attribuer une adresse ip � chaque joueur et � chaque PNJ
-		- G�n�rer les mots de passe, les fichiers � mettre dans les serveurs et PC, etc...
-		- G�rer les enqu�tes et la suspicion des autorit�s en fonction des actions des joueurs
+		- Générer la map réseau : attribuer une adresse ip à chaque joueur et à chaque PNJ
+		- Générer les mots de passe, les fichiers à mettre dans les serveurs et PC, etc...
+		- Gérer les enquêtes et la suspicion des autorités en fonction des actions des joueurs
 			- retrait de connexion (1min, 2min, 3min)
 			- confisquation de la machine (?)
 			- arrestation : GAME OVER
 
-		- G�rer le black market du darknet
+		- Gérer le black market du darknet
 			- Demande de Ddos
 			- Demande d'assassinat
 			- etc, ...
@@ -17,17 +17,17 @@ Ce que doit faire le serveur :
 	Pour chaque joueur :
 		- Recevoir/Analyser une commande
 		- Executer une commande
-		- Renvoyer r�sultat au joueur
+		- Renvoyer résultat au joueur
 
-	Diff�rents types de machines :
+	Différents types de machines :
 		- PC, ordinateur personnel de PNJ ou de joueur
-		- Serveur (d'h�bergement de sites, de jeux, etc...)
-		- Machines sensibles (gouvernements, banques, services de s�curit�)
+		- Serveur (d'hébergement de sites, de jeux, etc...)
+		- Machines sensibles (gouvernements, banques, services de sécurité)
 		- PC de hacker (comporte des outils potentiellement utiles ou des fichiers d'adresses IP utiles)
-		- Proxy : passer par un proxy rend l'IP personnelle invisible (sauf si le proxy est hack�, dans ce cas les logs vous diront tout. ;-))
+		- Proxy : passer par un proxy rend l'IP personnelle invisible (sauf si le proxy est hacké, dans ce cas les logs vous diront tout. ;-))
 		- Tor (?)
 
-	Le serveur cr�e :
+	Le serveur crée :
 		- liste des machines
-		- networkMap : fichier g�n�r� contenant toutes les adresses IP des machines de la partie avec leurs informations (en XML ?)
+		- networkMap : fichier généré contenant toutes les adresses IP des machines de la partie avec leurs informations (en XML ?)
 		- 

@@ -1,25 +1,25 @@
 Ce que peuvent faire les joueurs :
 
-	- scanner r�seau pour trouver de nouvelles machines � hack
-	- scanner port d'une machine et rep�rer port hackable
-	- hack machine cible avec ex�cutable requis. (Hack SSH port 22 avec sshCrack par exemple, puis portHack pour acc�der � la machine ensuite et enfin attaque sur mot de passe pour prendre les droits sur la machine)
-	- acc�der aux fichiers d'une machine hack�e
-	- compromettre un pc gr�ce � des outils trouv�s sur des serveurs de hackers (en d�posant executable au sein de la machine)
-	- scanner les machines vuln�rables
+	- scanner réseau pour trouver de nouvelles machines à hack
+	- scanner port d'une machine et repérer port hackable
+	- hack machine cible avec exécutable requis. (Hack SSH port 22 avec sshCrack par exemple, puis portHack pour accéder à la machine ensuite et enfin attaque sur mot de passe pour prendre les droits sur la machine)
+	- acc�der aux fichiers d'une machine hackée
+	- compromettre un pc grâce à des outils trouvés sur des serveurs de hackers (en déposant exécutable au sein de la machine)
+	- scanner les machines vulnérables
 
 	Un joueur a :
-		- un PC : processeur (temps d'ex�cution) + RAM (nombre d'ex�cutions)
-		- un compte bancaire : permet l'achat de diff�rents services
+		- un PC : processeur (temps d'exécution) + RAM (nombre d'exécutions)
+		- un compte bancaire : permet l'achat de différents services
 		- des fichiers, des logs, des executables, etc...
-		- syst�me de news permettant d'�tre notif� lorsqu'un autre joueur r�alise une action importante.
+		- système de news permettant d'être notifé lorsqu'un autre joueur réalise une action importante.
 	
 	Chaque action demande du temps processeur et de la m�moire
-		- Possibilit� d'acheter du nouveau mat�riel :
+		- Possibilité d'acheter du nouveau matèriel :
 			- Processeur plus puissant pour aller plus vite
-			- Plus de RAM pour lancer plus de t�ches
+			- Plus de RAM pour lancer plus de tâches
 
 
-	Les outils de hack � trouver :
+	Les outils de hack à trouver :
 		Pour hack :
 			- sshCrack 22: hack le port cible ssh
 			- sqlMemCorrupter 1433: hack le port sql
@@ -35,10 +35,10 @@ Ce que peuvent faire les joueurs :
 
 		Pour se prot�ger : 
 			- snurf, d�tecte connexions entrantes
-			- dosAttackKiller : emp�che un utilisateur d'envoyer des requ�tes au del� d'un certain stade
+			- dosAttackKiller : empêche un utilisateur d'envoyer des requêtes au delà d'un certain stade
 			- proxy [adresse-ip] : utiliser un proxy
-			- changeIp : change adresse IP de l'h�te (envoie de requ�te de changement au routeur, demande donc un peu de temps - 30sec)
+			- changeIp : change adresse IP de l'hôte (envoie de requête de changement au routeur, demande donc un peu de temps - 30sec)
 
 		Pour attaquer :
-			- dosAttack (avec ou sans bots) : envoie des requ�tes 
-			- forkBomb (sur lui-m�me ou non) : remplit la m�moire jusqu'au crash de la machine
+			- dosAttack (avec ou sans bots) : envoie des requêtes
+			- forkBomb (sur lui-même ou non) : surcharge la memoire jusqu'au crash de la machine

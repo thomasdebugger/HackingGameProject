@@ -20,7 +20,7 @@ class Machine:
 
     password = ""
 
-    ports = {"SSH": 22, "Web": 80, "etc ...": 0} # TODO : complete the ports dictionnary
+    ports = {"Port SSH": 22, "Port Web": 80, "etc ...": 0} # TODO : complete the ports dictionnary
 
     # Constructor
     def __init__(self):
