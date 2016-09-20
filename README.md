@@ -1,7 +1,7 @@
 # HackingGameProject
 *Project title will be updated when project name will be determined. ;)*
 
-&copy; 2016 - Etanlink, Nopest, Tellen, **Thomas Bastos (à modifier)**, Jérémy (?)
+&copy; 2016 - Etanlink, Nopest, Tellenn, Thomas Debugger, Jérémy (?)
 
 ---------------
 
