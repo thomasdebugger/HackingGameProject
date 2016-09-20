@@ -1,1 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<parc>
+    <pc type="hacker">
+        <ip>xxx.xxx.xxx.xxx</ip> <!-- randomly generated-->
+        <directory>
+            <bin>
+                <!-- $PATH = this directory, it's where a player will put his binaries for the autocompletion and stuff ... -->
+            </bin>
+            <sys>
+                <!-- stable through the game, a deletion cause the player to lose -->
+            </sys>
+            <home>
+                <!-- Can find different text randomly put here ( such as irc files ) -->
+            </home>
+            <log>
+                <!-- Logs of any done to the machine, such as hack, copy, deletion etc ..., delection in log doesn't cause a message to appear here-->
+            </log>
+        </directory>
+        <user>
+            <login>xxxxxx</login> <!-- Defined by user at start of the game -->
+            <mdp>******</mdp><!-- Defined by user at start of the game -->
+        </user>
+        <pcLevel>
+            <ps>1</ps> <!-- Start at 1 and evolve through the game-->
+            <ram>1</ram> <!-- Start at 1 and evolve through the game-->
+        </pcLevel>
+        <status></status><!-- IG, or dead + reason ( cops assassin etc .. )-->
+        <port><!-- the state will be open or closed depending on the protection software used-->
+            <p21></p21><!--ssh-->
+            <p22></p22><!--ftp-->
+            <p25></p25><!--smtp-->
+            <p80></p80><!--http-->
+            <p1433></p1433><!--sql-->
+            <p6667></p6667><!--irc-->
+        </port>
+    </pc>
+</parc>
